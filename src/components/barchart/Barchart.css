@@ -1,0 +1,57 @@
+.barchart-container{
+    width:55%;
+    height:auto;
+    border-radius: 14px;
+    border: 1px solid #EDF2F7;
+    background: #FFF;
+
+}
+
+.filter{
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    margin-left: auto; /* Push the filter to the right */
+    border-radius: 25%;
+    background: #fff;
+    padding-right:10px;
+    padding-top:20px;
+    align-items: center;
+    gap: 10px;
+    color:#000;
+ }
+
+  #filter{
+    padding: 6px 12px;
+    background:#fff;
+    border-radius:20px;
+    border: 1px solid #E1DFDF;
+    color: #3A3F51;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+  }
+
+  .bar-header{
+    margin-right:65%;
+    color: #26282C;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .barchart-container{
+      width:80%;
+    }
+
+    .bar-header{
+      font-size:12px;
+      margin-right:35%;
+    }
+
+  }

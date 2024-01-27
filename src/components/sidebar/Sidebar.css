@@ -1,0 +1,30 @@
+.sidebar{
+     display: flex;
+        height: auto;
+        width: 70px;
+        padding: 20px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        flex-shrink: 0;
+        border-right: 1px solid #EBECF2;
+        background: #F7F8FA;
+}
+
+.bright{
+    border-radius: 50%;
+    background: #34CAA5;
+}
+
+
+.switchTheme{
+    display: flex;
+padding: 5px;
+flex-direction: column;
+align-items: center;
+gap: 12px;
+border-radius: 100px;
+background: #FFF;
+height:60px; 
+margin-bottom:100px;
+}

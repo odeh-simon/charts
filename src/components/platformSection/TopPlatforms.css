@@ -1,0 +1,81 @@
+/* TopPlatforms.css */
+.top-platforms {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width:38.5%;
+  border: 1px solid #EDF2F7;
+  background: #fff;
+  padding: 16px 16px 32px 20px;
+  gap: 20px;
+  border-radius: 8px;
+  color:#26282C;
+}
+
+.top-platforms-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.see-all-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  margin-right:10px;
+  color: #34CAA5;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.platform {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #e0e0e0;
+  margin-bottom: 5px;
+  border-radius: 8px;
+
+}
+
+.amount-percentage {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+}
+
+/* Progress bar colors for each platform */
+.platform:nth-child(1) .progress-bar {
+  background-color: #2ecc71; /* Green */
+}
+
+.platform:nth-child(2) .progress-bar {
+  background-color: #3498db; /* Blue */
+}
+
+.platform:nth-child(3) .progress-bar {
+  background-color: #e67e22; /* Orange */
+}
+
+.platform:nth-child(4) .progress-bar {
+  background-color: #f1c40f; /* Yellow */
+}
+
+.platform:nth-child(5) .progress-bar {
+  background-color: #e74c3c; /* Red */
+}
+
+
+@media only screen and (max-width: 768px) {
+  .top-platforms{
+  width:80%;
+}
+}
